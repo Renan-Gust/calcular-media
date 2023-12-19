@@ -51,5 +51,8 @@ $medias = getColumnAverage('./data.csv');
 
 foreach($medias as $key => $media){
     echo "Total da coluna " . $key + 1 . " : " . $media["value"] . "<br>";
-    echo "Média da coluna " . $key + 1 . " : " . $media["media"] . "<br>";
+    echo "Média da coluna " . $key + 1 . " : " . $media["media"];
+
+    echo "<br>";
+    echo "<br>";
 }
